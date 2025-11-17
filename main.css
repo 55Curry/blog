@@ -1,31 +1,91 @@
-html, body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-}
+html,
 body {
-    font-family: "Figtree", sans-serif;
-    font-size: 16px;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
 
-    background-color: #F5D04E;
+body {
+  font-family: "Figtree", sans-serif;
+  font-size: 16px;
 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  background-color: #f5d04e;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 body .container {
+  width: 320px;
+  background-color: white;
+  padding: 20px 24px 20px 24px;
 
-    width: 320px;
-    background-color: white;
-    padding: 14px 22px 10px 22px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: sta;
 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  border: 1px black solid;
+  border-radius: 15px;
 
-    border: 1px black solid;
-    border-radius: 15px;
+  box-shadow: 10px 10px black;
+}
+
+.image {
+  width: 100%;
+  border-radius: 5px;
+
+  padding-bottom: 15px;
+}
+
+.tag-background {
+  width: 80px;
+  height: 30px;
+  background-color: #f5d04e;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+
+  margin-bottom: 10px;
+}
+
+.tag {
+  font-weight: bold;
+}
+
+.published-date {
+  color: gray;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.post-title {
+  font-weight: bold;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.post-article {
+  color: gray;
+  font-size: 14px;
+
+  margin-bottom: 25px;
+}
+.author-info {
+  font-weight: bold;
+}
+
+.avatar {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+
+  vertical-align: middle;
+
+  margin-right: 5px;
 }
